@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>The Founding of American Schools</title>
+<link rel="stylesheet" href="myCss.css">
+</head>
+<ul>
+  <li><a href="index.html">HomePage</a></li>
+  <li><a class="active" href="AmericanFoundations.html">Founding of American Schools</a></li>
+</ul>
+<body>
+<h1>The Founding of American Schools</h1>
+<h2>Take this super short quiz and then we'll talk about the questions and answers!</h2>
+
+<form id="form1">
+
+<h3>Who was the first ever secretary of the Massachusetts Board of Education?</h3>
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Freidrich Froebel (1782-1852)</label>
+<label for="var_join"><input type="radio" name="variable" value="1" id="var_join" />Horace Mann (1796-1859)</label>
+<label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />Charlotte Mason (1842-1923)</label>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Jean Piaget (1896-1980) </label>
+
+<h3>What was the European system of education like at the time?</h3>
+<label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>Dual system, one track lead to higher education, the other to vocational jobs</label>
+<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Separated by class</label>
+<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Implicit Religious Distinctions</label>
+<label for="sub_condition"><input type="radio" name="sub" value="1" id="sub_condition" />All of the above</label>
+
+<h3>Who supported early education reform movements, specifically in Massachusetts?</h3>
+<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Working lass people</label>
+<label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" />The middle class</label>
+<label for="cat_info"><input type="radio" name="con" value="1" id="cat_info" />The affluent upper class</label>
+<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />All of the above</label>
+
+<h3>What was the real motivating factor behind public education?</h3>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Closing the wealth gap</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Achieving a communal sense of "we-ness" through shared development</label>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />People were sick of their current jobs/living conditions</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="1" id="if_condition" />High schools were expected to increase communal wealth</label>
+<br></br>
+<button onCLick="revealPage1()"type="submit" value="Submit">Submit</button>
+
+</form>
+
+<p>You got: <span id="grade">__</span> right! We can talk about this section after you submit your answers!</p>
+<p id="grade2"></p>
+
+<p id="restOfPage1"> So, let's get into it. <br><br>The first reading we ever did for the class was Horace Mann's report no. 12 of the Massachusetss School Board. <br>Horace Mann had a vision where education would act as a "great equalizer," meaning it would provide a chance for people from all social classes to learn the same material in the same spaces. In his vision, this communal development would lend itself to social mobility, because no longer would one class possess all of the education. Education in a perfect world probably could work something like Mann envisoned, but Capitalism always finds a way to mess with everything, which you will learn about several times in this course</p>
+
+
+</body>
+
+<script src="myJs.js"></script>
+</html>
