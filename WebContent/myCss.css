@@ -6,7 +6,7 @@ ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  background-color: #0000ff;
+  background-color: #804000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -28,24 +28,24 @@ li a {
 }
 
 li a:hover {
-  background-color: #000080;
+  background-color: #532900;
 }
 .active {
-  background-color: #004080;
+  background-color: #ffb66c;
 }
 
 
 /* General Stuff */
 body{
 	font-size: larger;
-	background-color: #80ffff;
+	background-color: #ffffa8;
 	margin-top: 50px;
 }
 
 
 /* Page 1 Specifics */
 
-#restOfPage1{
+#restOfPage{
 	display: none;
 }
 
