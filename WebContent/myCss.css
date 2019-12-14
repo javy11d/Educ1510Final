@@ -37,6 +37,7 @@ li a:hover {
 
 /* General Stuff */
 body{
+	margin-left:0;
 	font-size: larger;
 	background-color: #ffffa8;
 	margin-top: 50px;
